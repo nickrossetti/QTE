@@ -1,0 +1,48 @@
+{
+  "quote": {
+    "shippingArrangement": {
+      "view": "Document",
+      "field": "UsrShippingArrangement",
+      "type": "CustomStringField"
+    },
+    "dateQuoteRequested": {
+      "view": "Document",
+      "field": "UsrDateQuoteRequested",
+      "type": "CustomDateTimeField"
+    },
+    "customerReferenceNumber": {
+      "view": "Document",
+      "field": "UsrCustomerReference",
+      "type": "CustomStringField"
+    }
+  },
+  "salesOrder": {
+    "shippingArrangement": {
+      "view": "Document",
+      "field": "UsrShippingArrangement",
+      "type": "CustomStringField"
+    },
+    "dateQuoteRequested": {
+      "view": "Document",
+      "field": "UsrDateQuoteRequested",
+      "type": "CustomDateTimeField"
+    },
+    "dateQuoteAccepted": {
+      "view": "Document",
+      "field": "UsrDateQuoteAccepted",
+      "type": "CustomDateTimeField"
+    },
+    "customerReferenceNumber": {
+      "view": "Document",
+      "field": "UsrCustomerReference",
+      "type": "CustomStringField"
+    }
+  },
+  "productionOrder": {
+    "machineSerialNumber": {
+      "view": "ProdItem",
+      "field": "UsrMachineSerialNumber",
+      "type": "CustomStringField"
+    }
+  }
+}

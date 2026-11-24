@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 168" role="img" aria-label="QTE Quality Track Equipment">
+  <title>QTE Quality Track Equipment</title>
+  <text x="8" y="86" font-family="Arial Black, Liberation Sans, Arial, sans-serif" font-size="96" font-style="italic" font-weight="700" fill="#0B1F4B">QTE</text>
+  <polygon fill="#1F4FD1" points="18,62 292,42 310,64 36,84"/>
+  <line x1="150" y1="124" x2="186" y2="124" stroke="#0B1F4B" stroke-width="4" stroke-linecap="square"/>
+  <text x="268" y="130" text-anchor="middle" font-family="Arial, Liberation Sans, sans-serif" font-size="20" font-weight="700" letter-spacing="5" fill="#0B1F4B">QUALITY</text>
+  <line x1="350" y1="124" x2="386" y2="124" stroke="#0B1F4B" stroke-width="4" stroke-linecap="square"/>
+  <text x="268" y="156" text-anchor="middle" font-family="Arial, Liberation Sans, sans-serif" font-size="16" font-weight="700" letter-spacing="3.2" fill="#0B1F4B">TRACK EQUIPMENT</text>
+</svg>

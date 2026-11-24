@@ -1,0 +1,51 @@
+@import "@fontsource/source-sans-3/latin-400.css";
+@import "@fontsource/source-sans-3/latin-600.css";
+@import "@fontsource/source-sans-3/latin-700.css";
+@import "@fontsource/barlow-condensed/latin-600.css";
+@import "@fontsource/barlow-condensed/latin-700.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.qte-pattern {
+  background-color: #ffffff;
+  background-image: url("/brand/background.svg");
+  background-size: 920px auto;
+  background-position: center top;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media print {
+  header,
+  button,
+  .qte-pattern {
+    display: none !important;
+  }
+
+  body,
+  main,
+  section {
+    background: white !important;
+    box-shadow: none !important;
+  }
+}

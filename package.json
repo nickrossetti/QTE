@@ -1,0 +1,47 @@
+{
+  "name": "qte",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sales quoting for Quality Track Equipment, integrated with Acumatica.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickrossetti/QTE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickrossetti/QTE/issues"
+  },
+  "homepage": "https://github.com/nickrossetti/QTE#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.5",
+    "@fontsource/source-sans-3": "^5.2.5",
+    "next": "^15.5.29",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^15.5.29",
+    "postcss": "8.5.33",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.6"
+  }
+}

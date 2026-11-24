@@ -1,0 +1,217 @@
+[
+  {
+    "operationId": "000",
+    "workCenter": "00",
+    "description": "Mobilization"
+  },
+  {
+    "operationId": "010",
+    "workCenter": "10",
+    "description": "Disassembly"
+  },
+  {
+    "operationId": "020",
+    "workCenter": "20",
+    "description": "Fabrication - Frame"
+  },
+  {
+    "operationId": "022",
+    "workCenter": "22",
+    "description": "Fabrication - Subassemblies"
+  },
+  {
+    "operationId": "023",
+    "workCenter": "23",
+    "description": "Fabrication - Cab"
+  },
+  {
+    "operationId": "030",
+    "workCenter": "30",
+    "description": "Steel Lines"
+  },
+  {
+    "operationId": "040",
+    "workCenter": "40",
+    "description": "SBP - SubAssembly Before Paint - Working Components"
+  },
+  {
+    "operationId": "041",
+    "workCenter": "41",
+    "description": "SBP - SubAssembly Before Paint - Cylinders"
+  },
+  {
+    "operationId": "042",
+    "workCenter": "42",
+    "description": "SBP - SubAssembly Before Paint - Valves"
+  },
+  {
+    "operationId": "043",
+    "workCenter": "43",
+    "description": "SBP - SubAssembly Before Paint - Tanks"
+  },
+  {
+    "operationId": "044",
+    "workCenter": "44",
+    "description": "SBP - SubAssembly Before Paint - Lining/Surfacing"
+  },
+  {
+    "operationId": "045",
+    "workCenter": "45",
+    "description": "SBP - SubAssembly Before Paint - Jacking"
+  },
+  {
+    "operationId": "046",
+    "workCenter": "46",
+    "description": "SBP - SubAssembly Before Paint - Powerplant"
+  },
+  {
+    "operationId": "047",
+    "workCenter": "47",
+    "description": "SBP - SubAssembly Before Paint - Drivetrain"
+  },
+  {
+    "operationId": "050",
+    "workCenter": "50",
+    "description": "Paint - Large Booth"
+  },
+  {
+    "operationId": "051",
+    "workCenter": "51",
+    "description": "Paint - Small Booth"
+  },
+  {
+    "operationId": "052",
+    "workCenter": "52",
+    "description": "Paint - Sandblast"
+  },
+  {
+    "operationId": "053",
+    "workCenter": "53",
+    "description": "Paint - Paint Prep"
+  },
+  {
+    "operationId": "054",
+    "workCenter": "54",
+    "description": "Paint - Paint Detail/Touch-up"
+  },
+  {
+    "operationId": "055",
+    "workCenter": "55",
+    "description": "Paint - Decal"
+  },
+  {
+    "operationId": "060",
+    "workCenter": "60",
+    "description": "SAP - Subassembly After Paint - Working Components"
+  },
+  {
+    "operationId": "061",
+    "workCenter": "61",
+    "description": "SAP - Subassembly After Paint - Tanks"
+  },
+  {
+    "operationId": "062",
+    "workCenter": "62",
+    "description": "SAP - Subassembly After Paint - Lining/Surfacing"
+  },
+  {
+    "operationId": "063",
+    "workCenter": "63",
+    "description": "SAP - Subassembly After Paint - Jacking"
+  },
+  {
+    "operationId": "064",
+    "workCenter": "64",
+    "description": "SAP - Subassembly After Paint - Powerplant"
+  },
+  {
+    "operationId": "065",
+    "workCenter": "65",
+    "description": "SAP - Subassembly After Paint - Drivetrain"
+  },
+  {
+    "operationId": "066",
+    "workCenter": "66",
+    "description": "SAP - Subassembly After Paint - Cab"
+  },
+  {
+    "operationId": "070",
+    "workCenter": "70",
+    "description": "Electrical - Prep"
+  },
+  {
+    "operationId": "071",
+    "workCenter": "71",
+    "description": "Electrical - Cab"
+  },
+  {
+    "operationId": "080",
+    "workCenter": "80",
+    "description": "MA - Machine Assembly - Hydraulics"
+  },
+  {
+    "operationId": "081",
+    "workCenter": "81",
+    "description": "MA - Machine Assembly - Electrical"
+  },
+  {
+    "operationId": "082",
+    "workCenter": "82",
+    "description": "MA - Machine Assembly - Drivetrain"
+  },
+  {
+    "operationId": "083",
+    "workCenter": "83",
+    "description": "MA - Machine Assembly - Powerplant"
+  },
+  {
+    "operationId": "084",
+    "workCenter": "84",
+    "description": "MA - Machine Assembly - Cab"
+  },
+  {
+    "operationId": "085",
+    "workCenter": "85",
+    "description": "MA - Machine Assembly - Working Components"
+  },
+  {
+    "operationId": "086",
+    "workCenter": "86",
+    "description": "MA - Machine Assembly - Jacking"
+  },
+  {
+    "operationId": "087",
+    "workCenter": "87",
+    "description": "MA - Machine Assembly - Air System"
+  },
+  {
+    "operationId": "090",
+    "workCenter": "90",
+    "description": "Track Test"
+  },
+  {
+    "operationId": "097",
+    "workCenter": "97",
+    "description": "Electrical Repair"
+  },
+  {
+    "operationId": "098",
+    "workCenter": "98",
+    "description": "Machine Repair"
+  },
+  {
+    "operationId": "099",
+    "workCenter": "99",
+    "description": "Rework"
+  },
+  {
+    "operationId": "110",
+    "workCenter": "OP10",
+    "description": "Engineering"
+  },
+  {
+    "operationId": "120",
+    "workCenter": "OP20",
+    "description": "Quality"
+  }
+]

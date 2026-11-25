@@ -147,11 +147,11 @@ If a later step fails, the screen lists the document numbers already created and
 
 Brand files live in [`public/brand/`](public/brand/):
 
-- `app-background.png` — full-page background (Nick's artwork, 1280×720). It includes the official logo, the tagline “Quality Built. Rail Ready.”, and the railroad tracks. Wide screens use it full-page (`cover`, anchored to the left so the logo stays in frame, `fixed`). Screens under 900px use a plain gray gradient so the form stays usable, and show `logo.svg` instead of the background logo.
-- `logo.svg` — wordmark used on small screens, where the background image is not shown
+- `app-background.png` — Nick's artwork (1280×720). The quoting pages use the same solid gray page and navy header as the Estimating app, not this file as a full-page background.
+- `qte-logo.png` — the official QTE mark cropped from that artwork (QUALITY / TRACK EQUIPMENT, without the tagline). Used in the header tile.
 - `mark.svg` — compact QTE mark
 
-Colors are navy `#0B1F4B` and royal blue `#1F4FD1` on white. Replace `public/brand/app-background.png` to change the page background, and `public/brand/logo.svg` to change the small-screen wordmark.
+Header and accent colors match the Estimating app: navy `#0D1D36`, royal `#0040A9`, page `#EEF2F8`.
 
 ## Extend the quote
 

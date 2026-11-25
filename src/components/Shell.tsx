@@ -50,7 +50,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
         <Link href="/" className="rounded-lg bg-white px-2 py-1">
           {/* Official wordmark. The full-page artwork is not used in the estimating app's header. */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/logo.svg" alt="QTE Quality Track Equipment" className="h-11 w-auto" />
+          <img src="/brand/qte-logo.png" alt="QTE Quality Track Equipment" className="h-12 w-auto" />
         </Link>
         <div className="min-w-[8rem] flex-1 font-display text-[1.7rem] font-extrabold uppercase leading-none tracking-wide">
           Quoting

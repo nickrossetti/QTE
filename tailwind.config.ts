@@ -5,19 +5,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: "#0B1F4B",
+        navy: "#0D1D36",
         "navy-ink": "#071533",
-        royal: "#1F4FD1",
-        "royal-dark": "#173ea8",
-        mist: "#f4f6fb",
-        line: "#d5deee",
+        royal: "#0040A9",
+        "royal-dark": "#00348a",
+        mist: "#EEF2F8",
+        line: "#D5DCE8",
+        go: "#11823B",
       },
       fontFamily: {
-        sans: ['"Source Sans 3"', '"Liberation Sans"', "sans-serif"],
+        sans: ['"Barlow"', "system-ui", "sans-serif"],
         display: ['"Barlow Condensed"', '"Arial Narrow"', "sans-serif"],
       },
       boxShadow: {
-        card: "0 16px 50px rgba(11, 31, 75, 0.12)",
+        card: "0 1px 3px rgba(13, 29, 54, 0.12)",
       },
     },
   },

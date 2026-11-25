@@ -1,16 +1,10 @@
-import { SignInForm } from "@/components/SignInForm";
-import { getConfig } from "@/server/config";
+import { QuoteList } from "@/components/QuoteList";
+import { Shell } from "@/components/Shell";
 
-export const dynamic = "force-dynamic";
-
-export default async function HomePage({
-  searchParams,
-}: {
-  searchParams: Promise<{ expired?: string }>;
-}) {
-  const config = getConfig();
-  const params = await searchParams;
+export default function HomePage() {
   return (
-    <SignInForm tenants={config.tenants} demoOnly={config.demoOnly} expired={params.expired === "1"} />
+    <Shell>
+      <QuoteList />
+    </Shell>
   );
 }

@@ -1,5 +1,5 @@
-import { QuoteWizard } from "@/components/QuoteWizard";
+import { redirect } from "next/navigation";
 
-export default function QuotePage() {
-  return <QuoteWizard />;
+export default function QuoteIndexPage() {
+  redirect("/");
 }

@@ -3,13 +3,12 @@ import { AcumaticaClient } from "@/server/acumatica/client";
 import { AcumaticaError } from "@/server/acumatica/errors";
 import { getConfig } from "@/server/config";
 import { demoCustomer, demoCustomers } from "@/server/demo-data";
-import { readSession } from "@/server/session";
+import { readSessionOrDemo } from "@/server/session";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: Request) {
-  const session = await readSession();
-  if (!session) return NextResponse.json({ error: "Sign in to continue." }, { status: 401 });
+  const session = await readSessionOrDemo();
   const url = new URL(request.url);
   const id = url.searchParams.get("id")?.trim() ?? "";
   const q = url.searchParams.get("q") ?? "";

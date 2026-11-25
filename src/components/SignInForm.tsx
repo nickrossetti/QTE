@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { BrandLogo } from "./BrandLogo";
 import { Button, inputClass } from "./ui";
 
 export function SignInForm({
@@ -36,7 +35,7 @@ export function SignInForm({
         setError(data.error || "Acumatica could not sign you in.");
         return;
       }
-      router.push("/quote");
+      router.push("/");
       router.refresh();
     } catch {
       setError("We couldn't reach the server. Try again, or continue in demo mode.");
@@ -58,7 +57,7 @@ export function SignInForm({
         setError("Demo mode could not be started.");
         return;
       }
-      router.push("/quote");
+      router.push("/");
       router.refresh();
     } catch {
       setError("We couldn't start demo mode. Try again.");
@@ -68,11 +67,8 @@ export function SignInForm({
   }
 
   return (
-    <main className="qte-app-bg">
-      <div className="mx-auto flex min-h-screen w-full items-center px-4 py-8 min-[900px]:pl-[46vw] min-[900px]:pr-10 min-[1200px]:pr-16">
-        <div className="w-full max-w-lg rounded-2xl bg-white/95 p-6 shadow-card ring-1 ring-white/70 sm:p-8" data-testid="sign-in">
-          <BrandLogo className="mb-4 h-16 min-[900px]:hidden" />
-          <h1 className="font-display text-4xl font-semibold leading-none text-navy md:mt-0">Sales quoting</h1>
+        <div className="card mx-auto max-w-lg" data-testid="sign-in">
+          <h1>Sign in</h1>
           <p className="mt-2 text-base text-slate-600">
             Build a machine-sales quote, turn it into a sales order, and send the production order to Acumatica.
           </p>
@@ -150,7 +146,5 @@ export function SignInForm({
             </p>
           </div>
         </div>
-      </div>
-    </main>
   );
 }

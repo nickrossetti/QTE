@@ -22,6 +22,14 @@ function secretFor(session: Session): string {
   return secret;
 }
 
+/** Lookups and demo submit work with no cookie. A missing session is demo mode. */
+export async function readSessionOrDemo(): Promise<Session> {
+  const session = await readSession();
+  if (session) return session;
+  const tenant = getConfig().tenants[0] || "Quality Track Equipment";
+  return { mode: "demo", username: "", tenant, createdAt: 0 };
+}
+
 export async function readSession(): Promise<Session | null> {
   const jar = await cookies();
   const parts: string[] = [];

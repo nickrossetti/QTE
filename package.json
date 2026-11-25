@@ -26,6 +26,7 @@
     "postcss": "$postcss"
   },
   "dependencies": {
+    "@fontsource/barlow": "^5.2.5",
     "@fontsource/barlow-condensed": "^5.2.5",
     "@fontsource/source-sans-3": "^5.2.5",
     "next": "^15.5.29",

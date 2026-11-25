@@ -2,7 +2,9 @@
 
 Web app Quality Track Equipment estimators use to build a machine-sales quote, copy it to a sales order, and create the production order and its operations in Acumatica.
 
-The flow is one guided path: **Quote → Sales Order → Production Order → Operations → Review**. Nothing is sent to Acumatica until the estimator submits the review screen.
+The screen follows the same pattern as the QTE Estimating app: a navy header, a list of quotes, and a short job with **Job details → Operations → Summary**. Nothing is sent to Acumatica until the summary is submitted. Walkthroughs are in the app under **How to use** and in [docs/EXAMPLES.md](docs/EXAMPLES.md).
+
+The public Estimating app does not load `public/brand/app-background.png`. Its page is the solid gray `#EEF2F8` with a navy header, which this app matches. The artwork file stays in the repo for when both apps should share it.
 
 Licensed under the [MIT License](LICENSE).
 

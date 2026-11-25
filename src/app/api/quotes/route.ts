@@ -3,14 +3,13 @@ import { isDraft } from "@/domain/draft";
 import { validateAll } from "@/domain/validation";
 import { AcumaticaError, PartialSubmitError } from "@/server/acumatica/errors";
 import { getConfig } from "@/server/config";
-import { readSession } from "@/server/session";
+import { readSessionOrDemo } from "@/server/session";
 import { submitDemo, submitLive } from "@/server/submit-quote";
 
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
-  const session = await readSession();
-  if (!session) return NextResponse.json({ error: "Sign in to continue." }, { status: 401 });
+  const session = await readSessionOrDemo();
   const body = await request.json().catch(() => null);
   if (!isDraft(body)) {
     return NextResponse.json({ error: "This quote could not be read. Go back and check each step." }, { status: 400 });

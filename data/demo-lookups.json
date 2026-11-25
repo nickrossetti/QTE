@@ -1,0 +1,85 @@
+{
+  "customers": [
+    {
+      "id": "NORTH",
+      "name": "Northline Mining Co.",
+      "contacts": [
+        {
+          "id": "1001",
+          "name": "Ada Lovelace",
+          "phone": "(555) 010-1000",
+          "email": "ada@northline.example"
+        },
+        {
+          "id": "1002",
+          "name": "Jonah Hale",
+          "phone": "(555) 010-1002",
+          "email": "jonah.hale@northline.example"
+        }
+      ]
+    },
+    {
+      "id": "HARBOR",
+      "name": "Harbor Aggregate LLC",
+      "contacts": [
+        {
+          "id": "2001",
+          "name": "Priya Shah",
+          "phone": "(555) 010-2001",
+          "email": "priya.shah@harboraggregate.example"
+        }
+      ]
+    },
+    {
+      "id": "SUMMIT",
+      "name": "Summit Rail Services",
+      "contacts": [
+        {
+          "id": "3001",
+          "name": "Marcus Bell",
+          "phone": "(555) 010-3001",
+          "email": "marcus.bell@summitrail.example"
+        }
+      ]
+    },
+    {
+      "id": "IRONWD",
+      "name": "Ironwood Construction",
+      "contacts": [
+        {
+          "id": "4001",
+          "name": "Elena Voss",
+          "phone": "(555) 010-4001",
+          "email": "elena.voss@ironwood.example"
+        }
+      ]
+    },
+    {
+      "id": "LAKESH",
+      "name": "Lakeshore Quarries",
+      "contacts": [
+        {
+          "id": "5001",
+          "name": "Chris Ortega",
+          "phone": "(555) 010-5001",
+          "email": "chris.ortega@lakeshore.example"
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    { "id": "QTE-TRK-48", "description": "Track Machine 48 in" },
+    { "id": "QTE-TRK-60", "description": "Track Machine 60 in" },
+    { "id": "QTE-RBD-01", "description": "Machine Rebuild" },
+    { "id": "QTE-CAB-STD", "description": "Standard Cab" },
+    { "id": "QTE-HYD-ASM", "description": "Hydraulic Assembly" },
+    { "id": "QTE-UND-48", "description": "Undercarriage 48 in" }
+  ],
+  "terms": [
+    { "id": "NET30", "description": "Net 30" },
+    { "id": "NET45", "description": "Net 45" },
+    { "id": "NET60", "description": "Net 60" },
+    { "id": "DOR", "description": "Due on Receipt" },
+    { "id": "DEP50", "description": "50% Deposit, balance before shipment" }
+  ]
+}

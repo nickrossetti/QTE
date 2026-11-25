@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0B1F4B"/>
+  <text x="16" y="21" text-anchor="middle" font-family="Arial, Liberation Sans, sans-serif" font-size="12" font-weight="700" fill="#ffffff">QTE</text>
+  <rect x="5" y="14.5" width="22" height="3" rx="0.5" fill="#1F4FD1" transform="rotate(-8 16 16)"/>
+</svg>

@@ -16,11 +16,22 @@ body {
   min-height: 100vh;
 }
 
-.qte-pattern {
-  background-color: #ffffff;
-  background-image: url("/brand/background.svg");
-  background-size: 920px auto;
-  background-position: center top;
+.qte-app-bg {
+  min-height: 100vh;
+  background-color: #e6e9ee;
+  background-image: linear-gradient(105deg, #c5cad3 0%, #e4e7ec 46%, #f6f7f8 100%);
+  background-attachment: fixed;
+}
+
+@media (min-width: 900px) {
+  .qte-app-bg {
+    background-image: url("/brand/app-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Keep the top-left logo in frame. A centered crop cuts it off on common laptop sizes. */
+    background-position: left center;
+    background-attachment: fixed;
+  }
 }
 
 .sr-only {
@@ -37,15 +48,16 @@ body {
 
 @media print {
   header,
-  button,
-  .qte-pattern {
+  button {
     display: none !important;
   }
 
+  .qte-app-bg,
   body,
   main,
   section {
     background: white !important;
+    background-image: none !important;
     box-shadow: none !important;
   }
 }

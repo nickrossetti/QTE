@@ -68,11 +68,11 @@ export function SignInForm({
   }
 
   return (
-    <main className="qte-pattern min-h-screen">
-      <div className="mx-auto flex min-h-screen max-w-lg flex-col justify-center px-4 py-10">
-        <div className="rounded-2xl bg-white/95 p-6 shadow-card ring-1 ring-navy/10 sm:p-8" data-testid="sign-in">
-          <BrandLogo className="h-20" />
-          <h1 className="mt-4 font-display text-4xl font-semibold leading-none text-navy">Sales quoting</h1>
+    <main className="qte-app-bg">
+      <div className="mx-auto flex min-h-screen w-full items-center px-4 py-8 min-[900px]:pl-[42vw] min-[900px]:pr-10 min-[1200px]:pr-16">
+        <div className="w-full max-w-lg rounded-2xl bg-white/95 p-6 shadow-card ring-1 ring-white/70 sm:p-8" data-testid="sign-in">
+          <BrandLogo className="mb-4 h-16 min-[900px]:hidden" />
+          <h1 className="font-display text-4xl font-semibold leading-none text-navy md:mt-0">Sales quoting</h1>
           <p className="mt-2 text-base text-slate-600">
             Build a machine-sales quote, turn it into a sales order, and send the production order to Acumatica.
           </p>

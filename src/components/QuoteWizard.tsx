@@ -175,7 +175,7 @@ export function QuoteWizard() {
 
   if (!session || !draft || !api) {
     return (
-      <main className="grid min-h-screen place-items-center bg-mist text-navy">
+      <main className="qte-app-bg grid place-items-center text-navy">
         <p className="text-lg font-semibold">Loading your quote…</p>
       </main>
     );
@@ -191,10 +191,10 @@ export function QuoteWizard() {
 
   return (
     <WizardProvider value={api}>
-      <div className="min-h-screen bg-mist text-navy">
+      <div className="qte-app-bg text-navy">
         <AppHeader username={session.username} tenant={session.tenant} mode={session.mode} onSignOut={signOut} />
-        <main className="mx-auto flex w-full max-w-5xl flex-col gap-5 px-4 py-5 pb-28">
-          <p className="text-sm font-semibold text-slate-500">
+        <main className="mx-auto flex w-full max-w-5xl flex-col gap-5 px-4 pb-28 pt-2 min-[900px]:pt-[38vh]">
+          <p className="text-sm font-semibold text-navy">
             Step {step + 1} of {STEPS.length}
             <span className="sr-only">. Saved on this device.</span>
           </p>
@@ -224,7 +224,7 @@ export function QuoteWizard() {
             })}
           </ol>
 
-          <section className="rounded-2xl bg-white p-4 shadow-card sm:p-6" data-testid="wizard-step">
+          <section className="rounded-2xl bg-white p-4 shadow-card ring-1 ring-navy/5 sm:p-6" data-testid="wizard-step">
             {result ? (
               <SuccessPanel result={result} onAnother={startAnother} />
             ) : (

@@ -145,11 +145,11 @@ If a later step fails, the screen lists the document numbers already created and
 
 Brand files live in [`public/brand/`](public/brand/):
 
-- `logo.svg` — wordmark in the header and on the sign-in screen
-- `mark.svg` — QTE mark
-- `background.svg` — sign-in wallpaper, also used faintly in the header
+- `app-background.png` — full-page background (1024×576). It includes the official logo, the tagline “Quality Built. Rail Ready.”, and the railroad tracks. Wide screens use it full-page (`cover`, anchored to the left so the logo stays in frame, `fixed`). Screens under 900px use a plain gray gradient so the form stays usable, and show `logo.svg` instead of the background logo.
+- `logo.svg` — wordmark used on small screens, where the background image is not shown
+- `mark.svg` — compact QTE mark
 
-Colors are navy `#0B1F4B` and royal blue `#1F4FD1` on white. To use the official logo file, replace `public/brand/logo.svg` (keep the name), or drop in a PNG and point `BrandLogo` at it. Replace `public/brand/background.svg` with the official wallpaper the same way.
+Colors are navy `#0B1F4B` and royal blue `#1F4FD1` on white. Replace `public/brand/app-background.png` to change the page background, and `public/brand/logo.svg` to change the small-screen wordmark.
 
 ## Extend the quote
 

@@ -193,7 +193,7 @@ export function QuoteWizard() {
     <WizardProvider value={api}>
       <div className="qte-app-bg text-navy">
         <AppHeader username={session.username} tenant={session.tenant} mode={session.mode} onSignOut={signOut} />
-        <main className="mx-auto flex w-full max-w-5xl flex-col gap-5 px-4 pb-28 pt-2 min-[900px]:pt-[38vh]">
+        <main className="mx-auto flex w-full max-w-5xl flex-col gap-5 px-4 pb-28 pt-2 min-[900px]:pt-[42vh]">
           <p className="text-sm font-semibold text-navy">
             Step {step + 1} of {STEPS.length}
             <span className="sr-only">. Saved on this device.</span>

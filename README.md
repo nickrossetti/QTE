@@ -145,7 +145,7 @@ If a later step fails, the screen lists the document numbers already created and
 
 Brand files live in [`public/brand/`](public/brand/):
 
-- `app-background.png` — full-page background (1024×576). It includes the official logo, the tagline “Quality Built. Rail Ready.”, and the railroad tracks. Wide screens use it full-page (`cover`, anchored to the left so the logo stays in frame, `fixed`). Screens under 900px use a plain gray gradient so the form stays usable, and show `logo.svg` instead of the background logo.
+- `app-background.png` — full-page background (Nick's artwork, 1280×720). It includes the official logo, the tagline “Quality Built. Rail Ready.”, and the railroad tracks. Wide screens use it full-page (`cover`, anchored to the left so the logo stays in frame, `fixed`). Screens under 900px use a plain gray gradient so the form stays usable, and show `logo.svg` instead of the background logo.
 - `logo.svg` — wordmark used on small screens, where the background image is not shown
 - `mark.svg` — compact QTE mark
 

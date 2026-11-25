@@ -69,7 +69,7 @@ export function SignInForm({
 
   return (
     <main className="qte-app-bg">
-      <div className="mx-auto flex min-h-screen w-full items-center px-4 py-8 min-[900px]:pl-[42vw] min-[900px]:pr-10 min-[1200px]:pr-16">
+      <div className="mx-auto flex min-h-screen w-full items-center px-4 py-8 min-[900px]:pl-[46vw] min-[900px]:pr-10 min-[1200px]:pr-16">
         <div className="w-full max-w-lg rounded-2xl bg-white/95 p-6 shadow-card ring-1 ring-white/70 sm:p-8" data-testid="sign-in">
           <BrandLogo className="mb-4 h-16 min-[900px]:hidden" />
           <h1 className="font-display text-4xl font-semibold leading-none text-navy md:mt-0">Sales quoting</h1>
